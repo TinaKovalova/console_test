@@ -6,7 +6,8 @@ namespace console_test
     {
         static void Main(string[] args)
         {
-            
+            var repo = new Repository();
+            repo.GetAll();
         }
     }
 }

@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace console_test
 {
@@ -9,6 +10,14 @@ namespace console_test
             throw new NotImplementedException();
         }
         public IEnumerable<int> GetAll() 
+        {
+            throw new NotImplementedException();
+        }
+        public void Put(int n)
+        {
+            throw new NotImplementedException();
+        }
+        public void Delete(int n)
         {
             throw new NotImplementedException();
         }
