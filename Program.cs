@@ -8,6 +8,8 @@ namespace console_test
         {
             var repo = new Repository();
             repo.GetAll();
+            repo.Put();
+            repo.Delete();
         }
     }
 }
