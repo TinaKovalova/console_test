@@ -6,14 +6,10 @@ namespace console_test
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i < length; i++)
-            {
-
-            }
-            for (int i = 0; i < length; i++)
-            {
-
-            }
+            var repo = new Repository();
+            repo.GetAll();
+            repo.Put();
+            repo.Delete();
         }
     }
 }
