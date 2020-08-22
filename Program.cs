@@ -10,6 +10,14 @@ namespace console_test
             repo.GetAll();
             repo.Put();
             repo.Delete();
+
+
+
+
+            for (int i = 0; i < length; i++)
+            {
+
+            }
         }
     }
 }
